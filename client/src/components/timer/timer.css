@@ -1,0 +1,10 @@
+.timer {
+    display: grid;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.group_radio {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "full-stack-app",
+  "version": "1.0.0",
+  "description": "Learn how to build modern and secure Full-Stack applications with React, TypeScript, and Nest.js",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "npm run start --prefix client",
+    "server:dev": "npm run start --prefix server",
+    "dev": "concurrently \"npm run client:dev\" \"npm run server:de\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
