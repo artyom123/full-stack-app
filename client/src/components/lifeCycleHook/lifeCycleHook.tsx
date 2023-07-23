@@ -1,5 +1,5 @@
 import React from 'react'
-import { consoleUtil } from 'utils'
+import { consoleUtil } from '@utils'
 
 export const LifeCycleHook: React.FC = () => {
     const [state, setState] = React.useState({

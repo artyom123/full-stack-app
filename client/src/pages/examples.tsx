@@ -5,7 +5,7 @@ const Examples: React.FC = () => {
         <section>
             <ul>
                 <li><Link to="timer">Timer</Link></li>
-                <li><Link to="life-cycle-hook">Timer</Link></li>
+                <li><Link to="life-cycle-hook">LifeCycle hook</Link></li>
             </ul>
         </section>
     )
