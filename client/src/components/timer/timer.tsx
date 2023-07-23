@@ -47,7 +47,7 @@ export const Timer: React.FC = () => {
             TIMER_FUNCTION[typeTimer].clear(timerRef.current)
             timerRef.current = undefined
         }
-    }, [count, isStarted, typeTimer])
+    }, [count, isStarted, typeTimer, TIMER_FUNCTION])
 
     return (
         <div className="timer">

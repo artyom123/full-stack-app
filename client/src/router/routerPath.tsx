@@ -1,4 +1,5 @@
 import React from 'react'
+import { LifeCycleHook } from '../components/lifeCycleHook/lifeCycleHook'
 import { Timer } from '../components/timer/timer'
 import { Examples } from '../pages'
 
@@ -18,6 +19,10 @@ const ROUTER_PATH = [
             {
                 path: 'timer',
                 element: <Timer />,
+            },
+            {
+                path: 'life-cycle-hook',
+                element: <LifeCycleHook />,
             },
         ],
     },
