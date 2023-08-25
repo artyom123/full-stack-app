@@ -1,0 +1,18 @@
+.life-cycle-cc {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.life-cycle-cc input {
+    margin-bottom: 10px;
+}
+
+.life-cycle-cc button {
+    margin-bottom: 20px;
+}
+
+.life-cycle-cc-children {
+    display: flex;
+    justify-content: space-between;
+}
