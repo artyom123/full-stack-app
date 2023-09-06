@@ -16,7 +16,7 @@ export const Events: React.FC = () => {
             consoleUtil.info('scroll remove event ======>>>', 'yellow')
             window.removeEventListener('scroll', handleScroll)
         }
-    }, [])
+    }, [handleScroll])
 
     return(
         <div className="container">

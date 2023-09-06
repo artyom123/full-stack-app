@@ -1,0 +1,50 @@
+:root {
+    --m-i: 8px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.dump-posts {
+    list-style-type: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.dump-post {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid cadetblue;
+}
+
+.dump-post-info > span {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dump-post-info > div {
+    margin-top: var(--m-i);
+}
+
+.dump-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.dump-label {
+    margin-right: var(--m-i);
+}
+
+.dump-input {
+    flex: 1;
+}
+
+.dump-button-create-post {
+    margin-left: var(--m-i);
+}
+
+.dump-post-actions {
+    margin-top: var(--m-i);
+}
