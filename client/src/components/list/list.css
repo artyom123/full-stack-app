@@ -1,0 +1,34 @@
+.list {
+    display: flex;
+}
+
+.list-item {
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    margin-right: calc(var(--m-i) * 2);
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item button {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: cadetblue;
+    color: white;
+}
+
+.list-item:not(:last-child)::after {
+    content: '->';
+    position: absolute;
+    right: calc(var(--m-i) * -1);
+    top: 50%;
+    transform: translate(50%, calc(var(--m-i) * -1));
+}

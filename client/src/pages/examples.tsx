@@ -10,9 +10,11 @@ const Examples: React.FC = () => {
                 <li><Link to={PATH.PAGE_EXAMPLES_LIFE_CYCLE_CC}>LifeCycle Class Component</Link></li>
                 <li><Link to={PATH.PAGE_EXAMPLES_EVENTS}>Events</Link></li>
                 <li><Link to={PATH.PAGE_EXAMPLES_PORTAL}>Portal</Link></li>
+                <li><Link to={PATH.PAGE_EXAMPLES_HOC_VS_RENDER_PROPS}>HOC vs Render props</Link></li>
 
                 <li><Link to={PATH.PAGE_EXAMPLES_DUMP}>Dump</Link></li>
                 <li><Link to={PATH.PAGE_EXAMPLES_DUMP_2}>Dump_2(jsonplaceholder)</Link></li>
+                <li><Link to={PATH.PAGE_EXAMPLES_DUMP_3}>Dump_3</Link></li>
             </ul>
         </section>
     )

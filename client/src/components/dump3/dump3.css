@@ -1,0 +1,6 @@
+.dump3-block {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}

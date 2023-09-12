@@ -1,0 +1,18 @@
+.memorization {
+
+}
+
+.memorization label {
+    display: flex;
+    align-items: center;
+}
+
+.memorization-rows {
+    display: flex;
+}
+
+.memorization-block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

@@ -6,6 +6,7 @@ const Games: React.FC = () => {
         <section>
             <ul>
                 <li><Link to={PATH.PAGE_GAMES_MEMORY}>Memory</Link></li>
+                <li><Link to={PATH.PAGE_GAMES_MEMORIZATION}>Memorization</Link></li>
             </ul>
         </section>
     )

@@ -1,0 +1,33 @@
+.queue-vs-stack-form {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.queue-vs-stack-form > * ~ * {
+    margin-bottom: var(--m-i);
+}
+
+.queue-vs-stack-group-radio > label {
+    margin-right: var(--m-i);
+}
+
+.queue-vs-stack-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.queue-vs-stack-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.queue-vs-stack-list-item {
+    padding: 5px 15px;
+    border: 2px solid aquamarine;
+    margin-bottom: var(--m-i);
+}
+
+.queue-vs-stack-list-item h4 {
+    margin-block: 0;
+}
